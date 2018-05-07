@@ -1,0 +1,24 @@
+#.NET project ignore list
+csx/
+rcf/
+obj/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.aps
+*.eto
+packages/
+ClientBin/
+GeneratedArtifacts/
+_Pvt_Extensions/
+Service References/
+.vs/
+app-version.txt
+.idea/
+local.settings.json
+node_modules/
+.env
+junit.xml
+out/

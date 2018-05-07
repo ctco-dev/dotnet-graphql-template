@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  dotnet-graphql:
+    build: .
+    image: dotnet-graphql
+    ports:
+      - "5000:5000"
+
+
