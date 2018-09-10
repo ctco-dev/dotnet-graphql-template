@@ -7,7 +7,7 @@
             return new Droid
             {
                 Id = 2,
-                Name = "BB-8"
+                Name = "R2D2"
             };
         }
     }
