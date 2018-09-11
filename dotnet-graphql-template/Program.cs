@@ -9,7 +9,7 @@ public static class Program
     {
         IWebHost host = WebHost
             .CreateDefaultBuilder(args)
-            .UseUrls("http://*:5000")
+            .UseUrls("http://*:" + Environment.GetEnvironmentVariable("PORT"))
             .UseStartup<Startup>()
             .Build();
 
